@@ -1,0 +1,11 @@
+{
+  "name": "capstone-setup",
+  "version": "1.0.0",
+  "description": "A minimal Node.js project for the capstone setup workflow",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "node --test"
+  },
+  "license": "MIT"
+}
