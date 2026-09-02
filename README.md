@@ -11,5 +11,15 @@ This project demonstrates a working local toolchain for AI-assisted development 
 3. Run `npm test` to verify the project.
 4. Run `npm start` to see the app output.
 
+## Project Structure
+
+```
+capstone_setup/
+├── src/          # Application source code
+├── tests/        # Test files
+├── package.json  # Scripts and project metadata
+└── CLAUDE.md     # Project conventions for AI-assisted development
+```
+
 ## Current Status
 The project is verified to run successfully in this environment.
