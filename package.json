@@ -1,11 +1,23 @@
 {
   "name": "capstone-setup",
+  "private": true,
   "version": "1.0.0",
-  "description": "A minimal Node.js project for the capstone setup workflow",
-  "main": "src/app.js",
+  "type": "module",
   "scripts": {
-    "start": "node src/app.js",
-    "test": "node --test"
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.13",
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react": "^5.0.2",
+    "typescript": "~5.8.3",
+    "vite": "^7.1.6"
   },
   "license": "MIT"
 }

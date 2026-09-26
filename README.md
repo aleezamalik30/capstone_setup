@@ -1,25 +1,43 @@
 # capstone_setup
 
-This repository contains the setup for my AI-assisted development capstone project.
+React + TypeScript application for the AI-assisted development capstone project.
 
-## Purpose
-This project demonstrates a working local toolchain for AI-assisted development with Node.js, Git, and Claude Code.
+## Stack
+
+- React (functional components only)
+- TypeScript
+- Vite
 
 ## Setup
+
 1. Install Node.js LTS and Git.
-2. Open this repository in your terminal.
-3. Run `npm test` to verify the project.
-4. Run `npm start` to see the app output.
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Start the development server:
+
+```bash
+npm run dev
+```
+
+4. Build for production:
+
+```bash
+npm run build
+```
 
 ## Project Structure
 
 ```
 capstone_setup/
-├── src/          # Application source code
-├── tests/        # Test files
-├── package.json  # Scripts and project metadata
-└── CLAUDE.md     # Project conventions for AI-assisted development
+├── public/           # Static assets
+├── src/              # Application source code
+│   ├── App.tsx       # Root component
+│   └── main.tsx      # Application entry point
+├── index.html        # HTML entry point
+├── package.json      # Scripts and dependencies
+└── vite.config.ts    # Vite configuration
 ```
-
-## Current Status
-The project is verified to run successfully in this environment.
